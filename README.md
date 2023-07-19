@@ -1,29 +1,26 @@
-# Ford GoBike System Data Presentation
+# Data-Findings---Ford-GoBike Presentation
 ## by Samuel Shaibu
-
 
 ## Dataset
 
-> In the San Francisco Bay Area of California, there is a regional public bike sharing program called Bay Wheels (formerly Ford GoBike). With approximately 500,000 rides since its debut in 2017, Bay Wheels is the first regional and extensive bicycle sharing system set up in California and along the West Coast of the United States. As of January 2018, it has about 10,000 annual subscribers. The monthly individual trip data for the broader San Francisco Bay area in CSV format from January 2018 to December 2018 comprise the dataset used for this exploratory investigation.
+> Bay Wheels (formerly Ford GoBike) is a regional public bike sharing program in the San Francisco Bay Area of California. Since its launch in 2017, Bay Wheels has recorded approximately 500,000 rides, making it the first extensive bicycle sharing system in California and along the West Coast of the United States. As of January 2018, it had around 10,000 annual subscribers. The dataset used for this exploratory investigation consists of monthly individual trip data in CSV format from January 2018 to December 2018, covering the broader San Francisco Bay area.
 
-> Here are some data wrangling processes I took:
+> Here are the data wrangling processes I performed:
 
-* Identified data issues regarding tidiness and quality
-* Cleaned the data by making sure that the multiple fields have the correct data types.
-* Added new columns
-* Filter out outliers from some of the visuals 
-* Plotted some visuals for communicating findings from the data
-
+* Identified and resolved issues related to data tidiness and quality.
+* Ensured correct data types for multiple fields.
+* Created new columns.
+* Filtered out outliers from certain visualizations.
+* Generated visualizations to communicate the findings from the data.
 
 ## Summary of Findings
 
-> There were more trips on work days than on weekends. The number of journeys peaked between 8 and 9 am and 17 to 18 pm during the day. The summer season was the busiest time of the year, probably because of the climate. Compared to weekends, riding trips are often shorter from Monday through Friday. On typical workdays, it shows a very consistent and effective usage of the bike sharing system, whereas weekends show more informal, flexible use.
+> The analysis revealed that there were more bike trips on work days compared to weekends. The peak hours for rides were between 8-9 am and 5-6 pm, indicating a concentration during typical commuting times. The summer season experienced the highest activity, potentially due to favorable weather conditions. On weekdays, the trip durations were generally shorter compared to weekends. Weekdays showed a consistent and efficient usage pattern, while weekends exhibited more casual and flexible usage.
 
-> Trip duration is highly dependent on the member's age; for those between 20 and 45, it is longer than for those who are older. Regarding age, duration, and gender, the others made their leaps when they were older (about 60 years old), resulting in a 3000 trip duration. Both the Customer and the Subscriber exhibit similar trends for age and trip duration, although the trip time for Subscribers is longer for older ages.
-
+> Trip duration showed a strong correlation with the age of the members. Individuals between the ages of 20 and 45 had longer trip durations compared to older riders. Notably, riders in the "other" gender category showed a significant increase in trip duration when they reached around 60 years old, reaching approximately 3000 in duration. Both Customers and Subscribers exhibited similar trends in terms of age and trip duration, although Subscribers had longer trip durations for older age groups.
 
 ## Key Insights for Presentation
 
-> Subscribers' efficient/short periods of consumption are consistent with their high concentration during Monday through Friday rush hours, showing that the use is mostly for commuting to work. Customers clearly utilize the bike sharing system considerably differently than subscribers, frequently on weekends and in the afternoons, likely for leisure or city tours, as seen by the more flexible and lax pattern of their usage.
+> The analysis highlights the distinct usage patterns between Subscribers and Customers. Subscribers primarily use the bike sharing system for daily commuting, as evidenced by their concentrated usage during Monday to Friday rush hours. In contrast, Customers exhibit a more relaxed and flexible usage pattern, with a higher frequency of trips on weekends and in the afternoon, suggesting leisure or recreational purposes.
 
-> We can also observe that there are lesser bike trips on weekends compared to weekdays. It also shows that the male gender have the highest number of bike trips between monday and friday.
+> Additionally, the analysis reveals a lower number of bike trips on weekends compared to weekdays. Furthermore, it shows that males have the highest number of bike trips from Monday to Friday, indicating a gender-based difference in usage patterns.
